@@ -1,13 +1,5 @@
 # This is sample commit
-print("Govinda Govinda......")
-print(" How old are you?")
-print('rishi "blah blah"')
-print('\nrishi')
-print(r'\navin')
-print(2 + 3)
-x = 2
-print(x + 3)
-print(x + 150)
+
 
 name = 'youtube'
 print(name)
@@ -24,6 +16,7 @@ print(nums[-5])
 print(names)
 print(names[1])
 
+# this
 both = [nums, names]
 print(both)
 print(2*54777)
@@ -32,3 +25,25 @@ print(names)
 names.insert(1,'Hi')
 print(names)
 names.pop(1)
+
+"""
+I have learnt that tuple is immutable and that you cannot change its values. you also have to use normal brackets while writing it
+"""
+
+tup=( 12, 22, 32,56)
+print (tup)
+
+s={234,56,98,76}
+print(s)
+abc=34
+print(id(s))
+a='Jeevan'
+b=a
+print(type(a))
+a = (1>2)
+print(type(a))
+d={'RISHI': 'DOG','ARJUN' : 'MEERKAT'}
+print(d.keys())
+
+
+
