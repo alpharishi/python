@@ -44,6 +44,3 @@ a = (1>2)
 print(type(a))
 d={'RISHI': 'DOG','ARJUN' : 'MEERKAT'}
 print(d.keys())
-
-
-
